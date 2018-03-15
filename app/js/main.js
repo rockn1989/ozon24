@@ -10,7 +10,7 @@ $('.main-slider').slick({
   fade: false,
   cssEase: 'slideToShow',
   customPaging: function(slider, i) {
-  	return '<button><svg class="callback__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/icon-svg/sprite-svg.svg#btn-'+(i+1)+'"></use></svg></button>'
+  	return '<button><svg class="slider__btn"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/icon-svg/sprite-svg.svg#btn-'+(i+1)+'"></use></svg></button>'
   }
 });
 

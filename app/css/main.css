@@ -204,10 +204,10 @@ svg {
 }
 .main-slider .slider {
   color: #ffffff;
-  -webkit-transition: all 0.9s ease-out;
-  -o-transition: all 0.9s ease-out;
-  -moz-transition: all 0.9s ease-out;
-  transition: all 0.9s ease-out;
+  -webkit-transition: all 0.7s ease-out;
+  -o-transition: all 0.7s ease-out;
+  -moz-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
   opacity: 0;
   -webkit-transform: translate3d(0, -20px, 0);
      -moz-transform: translate3d(0, -20px, 0);
