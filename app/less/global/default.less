@@ -10,6 +10,25 @@ table {
   box-sizing: border-box;
 }
 
+html.uk-touch {
+  body {
+    *.uk-invisible {
+      display: block !important;
+      opacity: 1 !important;
+      animation: none !important;
+      visibility: visible !important;
+    }
+    [class*=uk-animation-] {
+      @media @mob-w {
+        animation: none;
+      }
+      @media @tablet-w {
+        animation: none;
+      }
+    }
+  }
+}
+
 a {
   text-decoration: none;
   transition: all .3s linear;

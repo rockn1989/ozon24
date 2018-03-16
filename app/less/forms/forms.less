@@ -1,1 +1,55 @@
 /* FORMS */
+
+.offer-form {
+	margin: 0 auto;
+	padding: 55px 6.53%;
+	max-width: 820px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+	border-radius: 11px;
+	background-color: #ffffff;
+	&__title {
+		color: #0d2b5a;
+		.text-size(34px, 74px);
+		font-weight: 700;
+	}
+	&__subtitle {
+		margin-bottom: 20px;
+		max-width: 80%;
+		color: #456596;
+		.text-size(18px, 24px);
+	}
+	&__field-group {
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		border: none;
+	}
+	&__input {
+		padding: 12px 0;
+		.text-size(18px, 24px);
+		border: none;
+		border-bottom: 1px solid #9b9a9b;
+		outline: none;
+		&.name {
+			max-width: 150px;
+		}
+	}
+	&__btn {
+		width: 160px;
+		height: 40px;
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 40px;
+		box-shadow: 0 2px 11px rgba(100, 112, 155, 0.73);
+		border-radius: 100px;
+		background-color: #08289c;
+		border: none;
+		cursor: pointer;
+		transition: background-color .3s ease;
+		&:hover {
+			background-color: #00dee7;
+		}
+	}
+}

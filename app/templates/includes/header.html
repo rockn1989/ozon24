@@ -1,7 +1,7 @@
 {% block content %}
 	<header class="header">
 		<div class="video-block">
-			<video loop="" poster="" autoplay="" class="video-banner">
+			<video loop="" poster="" autoplay="" class="video-banner" preload="metadata">
 				<source src="img/video-bg.mp4" type="video/mp4">
 			</video>
 		</div>
@@ -10,14 +10,13 @@
 				<div class="header__logo">
 					<a href="/">
 						<img src="img/logo.png" alt="">
-						<span>Системы озонирования</span>
 					</a>
 				</div>
 				<div class="header__info">
-					<a href="" class="contacts">Контакты</a>
-					<a href="#callback" class="callback">
+					<a href="#contacts" class="contacts" data-uk-smooth-scroll>Контакты</a>
+					<a href="#callback" class="callback" data-uk-smooth-scroll>
 						<svg class="callback__icon">
-							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/img/icon-svg/sprite-svg.svg#tel"></use>
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="img/icon-svg/sprite-svg.svg#tel"></use>
 						</svg>
 						Заказать звонок
 					</a>
@@ -51,8 +50,8 @@
 				</div>
 			</div>
 			<div class="header__btn">
-				<a href="" class="btn">О компании</a>
-				<a href="" class="btn">Оборудование</a>
+				<a href="#about-company" class="btn" data-uk-smooth-scroll>О компании</a>
+				<a href="#equipments" class="btn" data-uk-smooth-scroll>Оборудование</a>
 			</div>
 			<div class="header__address">
 				Офис Санкт-Петербург, Невский проспект д.3
